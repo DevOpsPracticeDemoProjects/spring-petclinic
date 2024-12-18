@@ -452,4 +452,10 @@
       </build>
     </profile>
   </profiles>
+  <distributionManagement>
+      <repository>
+          <id>SpringbootApp</id>
+          <url>http://65.0.101.188:8081/repository/SpringbootApp/</url>
+      </repository>
+  </distributionManagement>
 </project>
