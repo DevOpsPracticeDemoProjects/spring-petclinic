@@ -452,14 +452,4 @@
       </build>
     </profile>
   </profiles>
-  <distributionManagement>
-      <repository>
-          <id>springbootapp-releases</id>
-          <url>http://65.0.101.188:8081/repository/springbootapp-releases/</url>
-      </repository>
-      <snapshotRepository>
-          <id>springbootapp-snapshots</id>
-          <url>http://65.0.101.188:8081/repository/springbootapp-snapshots/</url>
-      </snapshotRepository>
-  </distributionManagement>
 </project>
