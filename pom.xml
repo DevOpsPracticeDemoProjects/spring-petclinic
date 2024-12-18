@@ -452,4 +452,14 @@
       </build>
     </profile>
   </profiles>
+  <distributionManagement>
+    <repository>
+      <id>SpringApprelease</id>
+      <url>http://http://65.0.101.188:8081//repository/SpringApprelease/</url>
+    </repository>
+    <snapshotRepository>
+      <id>SpringAppSnaphot</id>
+      <url>http://http://65.0.101.188:8081//repository/SpringAppSnaphot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
