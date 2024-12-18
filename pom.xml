@@ -454,8 +454,12 @@
   </profiles>
   <distributionManagement>
       <repository>
-          <id>SpringbootApp</id>
-          <url>http://65.0.101.188:8081/repository/SpringbootApp/</url>
+          <id>maven-releases</id>
+          <url>http://65.0.101.188:8081/repository/maven-releases/</url>
       </repository>
+      <snapshotRepository>
+          <id>maven-snapshots</id>
+          <url>http://65.0.101.188:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
   </distributionManagement>
 </project>
