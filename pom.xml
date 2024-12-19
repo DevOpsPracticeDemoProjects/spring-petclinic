@@ -455,11 +455,11 @@
   <distributionManagement>
     <repository>
       <id>app-releases</id>
-      <url>http://65.0.101.188:8081/repository/app-releases/</url>
+      <url>http://3.111.157.162:8081/repository/app-releases/</url>
     </repository>
     <snapshotRepository>
       <id>app-snapshots</id>
-      <url>http://65.0.101.188:8081/repository/app-snapshots/</url>
+      <url>http://3.111.157.162:8081/repository/app-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
