@@ -1,5 +1,5 @@
 FROM openjdk:17-alpine
-ENV path=/usr/src/app
-WORKDIR $path
-COPY /target/spring-petclinic-3.5.0.jar .
-CMD [ "java", "-jar", "spring-petclinic-3.5.0.jar"]
+ENV PATH=/usr/src/app
+WORKDIR $PATH
+COPY /target/*.jar app.jar
+CMD ["java", "-jar", "app.jar"]
